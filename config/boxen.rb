@@ -5,7 +5,7 @@
 # ENV['BOXEN_HOME'] = '/opt/boxen'
 
 # Change the repo boxen will use.
-# ENV['BOXEN_REPO_NAME'] = 'boxen/our-boxen'
+ENV['BOXEN_REPO_NAME'] = 'boxen/my-boxen'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
@@ -23,7 +23,3 @@
 
 # required for Github Enterprise (defaults to "https://github.com/%s")
 # ENV['BOXEN_REPO_URL_TEMPLATE'] = 'https://github.yourdomain.com/%s'
-
-code_dir = "/Users/#{`whoami`.strip}/Projects"     # Top level code directory.
-`mkdir -p #{code_dir}`  # A bit of a hack to ensure BOXEN_SRC_DIR's parent exists. Difficult to guarantee in Boxen.
-ENV["BOXEN_SRC_DIR"] = [ code_dir, 'boxen' ].join('/')  # Boxen's own git repos.

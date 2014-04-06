@@ -60,6 +60,7 @@ class people::tarebyte {
   include osx::keyboard::capslock_to_control
 
   include postgresql
+  include projects::config
   include python
   include redis
   include rdio
@@ -75,26 +76,12 @@ class people::tarebyte {
 
   package {
     [
+      'pcre',
       'reattach-to-user-namespace',
       'spark',
       'the_silver_searcher',
       'tree',
       'qt'
     ]:
-  }
-
-  $home       = "/Users/${::luser}"
-  $personal_projects = "${projects}/${::boxen_user}"
-
-  repository {"${personal_projects}/dotfiles":
-    ensure => present,
-    source => 'tarebyte/dotfiles',
-    path   => "${personal_projects}/dotfiles"
-  }
-
-  repository {"${personal_projects}/vim-config":
-    ensure => present,
-    source => 'tarebyte/vim-config',
-    path   => "${personal_projects}/vim-config"
   }
 }
