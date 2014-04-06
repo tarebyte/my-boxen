@@ -54,11 +54,6 @@ GITHUBTARBALL
     ctags (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dash
-  specs:
-    dash (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
@@ -325,7 +320,6 @@ DEPENDENCIES
   clojure (>= 0)
   cmake (>= 0)
   ctags (>= 0)
-  dash (>= 0)
   dnsmasq (= 1.0.1)
   dropbox (>= 0)
   elasticsearch (>= 0)

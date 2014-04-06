@@ -15,7 +15,6 @@ class people::tarebyte {
   include clojure
   include cmake
   include ctags
-  include dash
   include dropbox
   include elasticsearch
   include erlang
