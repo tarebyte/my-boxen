@@ -62,6 +62,7 @@ class people::tarebyte {
   include projects::config
   include python
   include redis
+  include projects::regaingonew
   include rdio
   include screenhero
   include slack
