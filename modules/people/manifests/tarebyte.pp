@@ -59,10 +59,13 @@ class people::tarebyte {
   include osx::keyboard::capslock_to_control
 
   include postgresql
+
   include projects::config
+  include projects::clients
+  include projects::cwdg
+
   include python
   include redis
-  include projects::regaingonew
   include rdio
   include screenhero
   include slack

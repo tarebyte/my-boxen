@@ -1,4 +1,4 @@
-class projects::regaingonew {
+class projects::clients {
 
   boxen::project {"regaingonew":
     source     => 'ccovert/regaingonew',
