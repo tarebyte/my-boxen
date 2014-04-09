@@ -80,6 +80,7 @@ class people::tarebyte {
 
   package {
     [
+      'htop',
       'pcre',
       'reattach-to-user-namespace',
       'spark',
