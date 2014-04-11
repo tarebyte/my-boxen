@@ -1,5 +1,6 @@
 class people::tarebyte {
   include adium
+  include adobe_reader
   include alfred
 
   include android::sdk
