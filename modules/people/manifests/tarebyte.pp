@@ -86,8 +86,7 @@ class people::tarebyte {
       'reattach-to-user-namespace',
       'spark',
       'the_silver_searcher',
-      'tree',
-      'qt'
+      'tree'
     ]:
   }
 }
