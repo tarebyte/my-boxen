@@ -12,7 +12,10 @@ class people::tarebyte {
   include bartender
   include boxen::development
   include caffeine
+
   include chrome
+  include chrome::beta
+
   include clojure
   include cmake
   include ctags
