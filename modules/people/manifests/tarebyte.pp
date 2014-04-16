@@ -34,6 +34,7 @@ class people::tarebyte {
   include imagemagick
   include java
   include kindle
+  include licecap
   include macvim
   include marked2
   include memcached

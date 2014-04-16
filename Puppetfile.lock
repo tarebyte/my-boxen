@@ -149,6 +149,11 @@ GITHUBTARBALL
     kindle (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-licecap
+  specs:
+    licecap (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
@@ -350,6 +355,7 @@ DEPENDENCIES
   iterm2 (>= 0)
   java (>= 0)
   kindle (>= 0)
+  licecap (>= 0)
   macvim (>= 0)
   marked2 (>= 0)
   memcached (>= 0)
