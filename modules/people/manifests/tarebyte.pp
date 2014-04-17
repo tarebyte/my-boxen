@@ -39,7 +39,6 @@ class people::tarebyte {
   include marked2
   include memcached
   include minecraft
-  include mongodb
   include ohmyzsh
 
   # Nodejs
