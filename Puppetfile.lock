@@ -121,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.6.2)
+    homebrew (1.9.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -348,7 +348,7 @@ DEPENDENCIES
   git (= 2.3.0)
   go (= 1.1.0)
   heroku (>= 0)
-  homebrew (= 1.6.2)
+  homebrew (= 1.9.0)
   hub (= 1.3.0)
   imagemagick (>= 0)
   inifile (= 1.0.3)
