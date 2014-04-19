@@ -69,6 +69,7 @@ class people::tarebyte {
   include projects::config
   include projects::clients
   include projects::cwdg
+  include projects::personal_projects
 
   include python
   include redis
