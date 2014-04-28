@@ -23,5 +23,30 @@ class people::tarebyte::git {
     'alias.type'          : value => 'cat-file -t';
     'alias.rmb'           : value => "!sh -c 'git branch -D $1 && git push origin :$1' -";
     'alias.who'           : value => 'shortlog -n -s --no-merges';
+
+    'color.branch'      : value => 'auto';
+    'color.diff'        : value => 'auto';
+    'color.interactive' : value => 'auto';
+    'color.status'      : value => 'auto';
+
+    'credential.editor'     : value => 'vim';
+    'credential.whitespace' : value => 'trailing-space,space-before-tab,indent-with-non-tab';
+
+    'diff.tool' : value => 'vimdiff';
+
+    'difftool.prompt' : value => 'false';
+
+    'github.user' : value => 'tarebyte';
+
+    'gitsh.defaultCommand': value => 'status -sb';
+
+    'hub.protocol' : value => 'https';
+
+    'push.default' : value  => 'current';
+
+    'user.name'       : value => 'Mark Tareshawty';
+    'user.email'      : value => 'tarebyte@gmail.com';
+    'user.username'   : value => 'tarebyte';
+    'user.signingkey' : value => '46025DA6';
   }
 }
