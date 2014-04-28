@@ -40,8 +40,6 @@ class people::tarebyte::git {
 
     'gitsh.defaultCommand': value => 'status -sb';
 
-    'hub.protocol' : value => 'https';
-
     'push.default' : value  => 'current';
 
     'user.name'       : value => 'Mark Tareshawty';
