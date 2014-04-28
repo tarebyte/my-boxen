@@ -1,5 +1,6 @@
 class people::tarebyte {
   include people::tarebyte::apps
+  include people::tarebyte::git
   include people::tarebyte::osx
 
   include boxen::development
