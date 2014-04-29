@@ -58,6 +58,7 @@ class people::tarebyte::apps {
   include redis
   include rdio
 
+  include selfcontrol
   include screenhero
   include slack
   include slate

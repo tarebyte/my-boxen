@@ -323,6 +323,11 @@ GITHUBTARBALL
   specs:
     iterm2 (1.1.0)
 
+GITHUBTARBALL
+  remote: tarebyte/puppet-selfcontrol
+  specs:
+    selfcontrol (1.0.0)
+
 DEPENDENCIES
   adium (>= 0)
   adobe_reader (>= 0)
@@ -377,6 +382,7 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 8.0.1)
   screenhero (>= 0)
+  selfcontrol (= 1.0.0)
   slack (>= 0)
   slate (>= 0)
   sourcetree (>= 0)
