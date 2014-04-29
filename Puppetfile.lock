@@ -71,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.1.0)
+    elasticsearch (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-erlang
@@ -171,7 +171,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mongodb
   specs:
-    mongodb (1.3.0)
+    mongodb (2.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
