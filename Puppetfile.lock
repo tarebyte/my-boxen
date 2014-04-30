@@ -1,3 +1,8 @@
+PATH
+  remote: /Users/mark/src/boxen/puppet-flowdock
+  specs:
+    flowdock (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
@@ -346,6 +351,7 @@ DEPENDENCIES
   elasticsearch (>= 0)
   erlang (>= 0)
   firefox (>= 0)
+  flowdock (>= 0)
   flux (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.0.100)

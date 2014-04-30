@@ -30,6 +30,7 @@ class people::tarebyte::apps {
 
   include flux::beta
 
+  include flowdock
   include heroku
 
   include iterm2::dev
