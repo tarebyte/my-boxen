@@ -1,4 +1,4 @@
-class projects::cwdg {
+class projects::cwdg::projects {
 
   boxen::project { "cwdg-website":
     ruby       => '2.1.0',

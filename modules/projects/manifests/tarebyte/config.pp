@@ -1,4 +1,4 @@
-class projects::config {
+class projects::tarebyte::config {
 
   boxen::project { "dotfiles":
     source => 'tarebyte/dotfiles',

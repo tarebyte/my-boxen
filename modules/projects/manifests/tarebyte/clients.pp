@@ -1,4 +1,4 @@
-class projects::clients {
+class projects::tarebyte::clients {
 
   boxen::project {"regaingonew":
     source     => 'ccovert/regaingonew',
