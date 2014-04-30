@@ -14,11 +14,6 @@ class people::tarebyte {
     version => 'v0.10.26'
   }
 
-  ruby::plugin { 'rbenv-gem-rehash':
-    ensure   => 'v1.0.0',
-    source => 'sstephenson/rbenv-gem-rehash'
-  }
-
   package {
     [
       'htop',
