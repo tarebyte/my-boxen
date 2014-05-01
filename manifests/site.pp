@@ -74,10 +74,11 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
 
-  ruby::plugin { 'rbenv-gem-rehash':
-    ensure   => 'v1.0.0',
-    source => 'sstephenson/rbenv-gem-rehash'
-  }
+  # For another day
+  # ruby::plugin { 'rbenv-gem-rehash':
+  #   ensure   => 'v1.0.0',
+  #   source => 'sstephenson/rbenv-gem-rehash'
+  # }
 
   # common, useful packages
   package {
