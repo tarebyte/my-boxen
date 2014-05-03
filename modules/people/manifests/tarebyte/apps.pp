@@ -67,7 +67,7 @@ class people::tarebyte::apps {
   include slate
 
   include tmux
-  include vagrant
+  # include vagrant
   include virtualbox
   include vmware_fusion
 
