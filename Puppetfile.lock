@@ -114,6 +114,11 @@ GITHUBTARBALL
     git (2.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gitx
+  specs:
+    gitx (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.1.0)
@@ -249,6 +254,11 @@ GITHUBTARBALL
     screenhero (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sequel_pro
+  specs:
+    sequel_pro (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-slack
   specs:
     slack (1.0.5)
@@ -362,6 +372,7 @@ DEPENDENCIES
   gcc (= 2.0.100)
   gh (>= 0)
   git (= 2.3.0)
+  gitx (>= 0)
   go (= 1.1.0)
   heroku (>= 0)
   homebrew (= 1.9.0)
@@ -394,6 +405,7 @@ DEPENDENCIES
   ruby (= 8.0.1)
   screenhero (>= 0)
   selfcontrol (= 1.0.0)
+  sequel_pro (>= 0)
   slack (>= 0)
   slate (>= 0)
   sourcetree (>= 0)

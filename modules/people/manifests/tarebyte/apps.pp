@@ -31,6 +31,7 @@ class people::tarebyte::apps {
   include flux::beta
 
   include flowdock
+  include gitx
   include heroku
 
   include iterm2::dev
@@ -64,7 +65,6 @@ class people::tarebyte::apps {
   include screenhero
   include slack
   include slate
-  include sourcetree
 
   include tmux
   include vagrant
