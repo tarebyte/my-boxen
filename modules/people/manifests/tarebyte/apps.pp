@@ -68,6 +68,7 @@ class people::tarebyte::apps {
   include tmux
   include vagrant
   include virtualbox
+  include vmware
 
   include zeromq
   include zsh
