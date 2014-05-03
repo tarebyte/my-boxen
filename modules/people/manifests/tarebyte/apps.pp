@@ -60,6 +60,7 @@ class people::tarebyte::apps {
   include rdio
 
   include selfcontrol
+  include sequel_pro
   include screenhero
   include slack
   include slate
@@ -68,7 +69,7 @@ class people::tarebyte::apps {
   include tmux
   include vagrant
   include virtualbox
-  include vmware
+  include vmware_fusion
 
   include zeromq
   include zsh
