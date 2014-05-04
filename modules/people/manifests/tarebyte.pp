@@ -4,6 +4,7 @@ class people::tarebyte {
   include people::tarebyte::apps
   include people::tarebyte::git
   include people::tarebyte::osx
+  include people::tarebyte::shopify
 
   include projects::tarebyte::config
   include projects::tarebyte::clients

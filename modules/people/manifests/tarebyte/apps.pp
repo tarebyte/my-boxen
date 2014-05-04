@@ -13,9 +13,10 @@ class people::tarebyte::apps {
   include bartender
 
   include caffeine
-  include chrome
 
+  include chrome
   include chrome::beta
+  include chrome::canary
 
   include clojure
   include cmake
@@ -67,8 +68,7 @@ class people::tarebyte::apps {
   include slate
 
   include tmux
-  # include vagrant
-  include virtualbox
+  include vagrant
   include vmware_fusion
 
   include zeromq
