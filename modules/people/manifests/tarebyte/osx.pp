@@ -8,5 +8,5 @@ class people::tarebyte::osx {
   include osx::software_update
   include osx::dock::icon_size
 
-  osx::recovery_message { 'If this Mac is found, please call +1.330.402.5879': }
+  osx::recovery_message { 'If this Mac is found, please call +1.613.501.4257': }
 }
