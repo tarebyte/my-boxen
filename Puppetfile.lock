@@ -279,6 +279,11 @@ GITHUBTARBALL
     tmux (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-vmware_fusion
   specs:
     vmware_fusion (1.1.0)
@@ -403,6 +408,7 @@ DEPENDENCIES
   sysctl (>= 0)
   tmux (>= 0)
   vagrant (= 3.0.8)
+  vlc (>= 0)
   vmware_fusion (>= 0)
   xquartz (= 1.1.1)
   zeromq (>= 0)

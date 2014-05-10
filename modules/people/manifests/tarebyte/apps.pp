@@ -69,6 +69,7 @@ class people::tarebyte::apps {
 
   include tmux
   include vagrant
+  include vlc
   include vmware_fusion
 
   include zeromq
