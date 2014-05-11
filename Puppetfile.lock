@@ -254,6 +254,11 @@ GITHUBTARBALL
     sequel_pro (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.8)
+
+GITHUBTARBALL
   remote: boxen/puppet-slack
   specs:
     slack (1.0.5)
@@ -401,6 +406,7 @@ DEPENDENCIES
   screenhero (>= 0)
   selfcontrol (= 1.0.0)
   sequel_pro (>= 0)
+  skype (>= 0)
   slack (>= 0)
   slate (>= 0)
   stdlib (= 4.1.0)

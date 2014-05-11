@@ -64,6 +64,7 @@ class people::tarebyte::apps {
   include selfcontrol
   include sequel_pro
   include screenhero
+  include skype
   include slack
   include slate
 
