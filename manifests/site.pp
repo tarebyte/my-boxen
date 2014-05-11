@@ -74,12 +74,26 @@ node default {
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
+  ruby::version { '2.1.2': }
 
-  # For another day
-  # ruby::plugin { 'rbenv-gem-rehash':
-  #   ensure   => 'v1.0.0',
-  #   source => 'sstephenson/rbenv-gem-rehash'
-  # }
+  # ensure a gem is installed for all ruby versions
+  ruby_gem { 'bundler for all rubies':
+    gem          => 'bundler',
+    version      => '>= 1.6',
+    ruby_version => '*',
+  }
+
+  ruby_gem { 'pry for all rubies':
+    gem          => 'pry',
+    version      => '>= 0.9.12.6',
+    ruby_version => '*',
+  }
+
+  ruby_gem { 'awesome_print for all rubies':
+    gem          => 'awesome_print',
+    version      => '>= 1.2',
+    ruby_version => '*',
+  }
 
   # common, useful packages
   package {
