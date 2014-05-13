@@ -71,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.2.0)
+    elasticsearch (2.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-erlang
@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.9)
+    firefox (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-flux
@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gh
   specs:
-    gh (1.9.1)
+    gh (2.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
