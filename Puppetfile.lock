@@ -284,6 +284,11 @@ GITHUBTARBALL
     tmux (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.0.8)
+
+GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.1.0)
@@ -342,11 +347,6 @@ GITHUBTARBALL
   remote: tarebyte/puppet-selfcontrol
   specs:
     selfcontrol (1.0.0)
-
-GITHUBTARBALL
-  remote: tarebyte/puppet-vagrant
-  specs:
-    vagrant (3.0.8)
 
 DEPENDENCIES
   adium (>= 0)
@@ -413,7 +413,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (>= 0)
   tmux (>= 0)
-  vagrant (= 3.0.8)
+  vagrant (>= 0)
   vlc (>= 0)
   vmware_fusion (>= 0)
   xquartz (= 1.1.1)
