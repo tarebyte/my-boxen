@@ -8,6 +8,7 @@ class people::tarebyte::apps {
   include android::platform_tools
   include android::studio
 
+  include atom
   include autojump
 
   include bartender

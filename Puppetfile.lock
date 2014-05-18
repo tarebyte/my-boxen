@@ -334,6 +334,11 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 GITHUBTARBALL
+  remote: tarebyte/puppet-atom
+  specs:
+    atom (1.0.0)
+
+GITHUBTARBALL
   remote: tarebyte/puppet-flowdock
   specs:
     flowdock (1.0.1)
@@ -353,6 +358,7 @@ DEPENDENCIES
   adobe_reader (>= 0)
   alfred (>= 0)
   android (>= 0)
+  atom (= 1.0.0)
   autojump (>= 0)
   bartender (>= 0)
   boxen (= 3.6.1)
