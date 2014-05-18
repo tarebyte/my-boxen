@@ -286,7 +286,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.0.8)
+    vagrant (3.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
