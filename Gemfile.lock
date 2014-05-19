@@ -28,7 +28,7 @@ GEM
     librarian (0.1.2)
       highline
       thor (~> 0.15)
-    librarian-puppet (1.0.0)
+    librarian-puppet (1.0.2)
       json
       librarian (>= 0.1.2)
     metaclass (0.0.4)
@@ -82,7 +82,7 @@ DEPENDENCIES
   boxen (~> 2.6)
   deep_merge (~> 1.0)
   hiera (~> 1.3.2)
-  librarian-puppet (= 1.0.0)
+  librarian-puppet (= 1.0.2)
   net-ssh
   open4 (~> 1.3.3)
   puppet (= 3.4.3)
