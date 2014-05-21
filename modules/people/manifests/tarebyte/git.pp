@@ -10,6 +10,7 @@ class people::tarebyte::git {
     'alias.pr'            : value => '!hub pull-request';
     'alias.dump'          : value => 'cat-file -p';
     'alias.hist'          : value => 'log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --color';
+    'alias.oops'          : value => "reset --soft 'HEAD^'";
     'alias.pm'            : value => 'push origin master';
     'alias.phm'           : value => 'push heroku master';
     'alias.sc'            : value => 'commit -S -m';
