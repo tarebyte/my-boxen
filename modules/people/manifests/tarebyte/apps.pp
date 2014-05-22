@@ -68,6 +68,7 @@ class people::tarebyte::apps {
   include skype
   include slack
   include slate
+  include sublime_text
 
   include tmux
   include vagrant

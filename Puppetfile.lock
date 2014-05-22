@@ -279,6 +279,11 @@ GITHUBTARBALL
     slate (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text
+  specs:
+    sublime_text (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -416,6 +421,7 @@ DEPENDENCIES
   slack (>= 0)
   slate (>= 0)
   stdlib (= 4.1.0)
+  sublime_text (>= 0)
   sudo (= 1.0.0)
   sysctl (>= 0)
   tmux (>= 0)
