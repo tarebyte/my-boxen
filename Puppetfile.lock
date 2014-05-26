@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
-    adium (1.3.0)
+    adium (1.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-adobe_reader
@@ -17,6 +17,11 @@ GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
     android (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-atom
+  specs:
+    atom (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-autojump
@@ -81,7 +86,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.2.0)
+    firefox (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-flowdock
@@ -349,11 +354,6 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 GITHUBTARBALL
-  remote: tarebyte/puppet-atom
-  specs:
-    atom (1.0.0)
-
-GITHUBTARBALL
   remote: tarebyte/puppet-selfcontrol
   specs:
     selfcontrol (1.0.0)
@@ -363,7 +363,7 @@ DEPENDENCIES
   adobe_reader (>= 0)
   alfred (>= 0)
   android (>= 0)
-  atom (= 1.0.0)
+  atom (>= 0)
   autojump (>= 0)
   bartender (>= 0)
   boxen (= 3.6.1)
