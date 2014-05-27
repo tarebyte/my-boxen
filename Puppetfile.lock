@@ -89,6 +89,11 @@ GITHUBTARBALL
     firefox (1.2.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-fish
+  specs:
+    fish (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-flowdock
   specs:
     flowdock (1.0.0)
@@ -377,6 +382,7 @@ DEPENDENCIES
   elasticsearch (>= 0)
   erlang (>= 0)
   firefox (>= 0)
+  fish (>= 0)
   flowdock (>= 0)
   flux (>= 0)
   foreman (= 1.2.0)

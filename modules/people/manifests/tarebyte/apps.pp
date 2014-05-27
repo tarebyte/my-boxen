@@ -30,6 +30,10 @@ class people::tarebyte::apps {
 
   include firefox
 
+  class { 'fish':
+      chsh => false,
+  }
+
   include flux::beta
 
   include flowdock
