@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.0.100)
+    gcc (2.0.101)
 
 GITHUBTARBALL
   remote: boxen/puppet-gh
@@ -380,7 +380,7 @@ DEPENDENCIES
   flowdock (>= 0)
   flux (>= 0)
   foreman (= 1.2.0)
-  gcc (= 2.0.100)
+  gcc (= 2.0.101)
   gh (>= 0)
   git (= 2.3.1)
   gitx (>= 0)
