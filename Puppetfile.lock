@@ -286,7 +286,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-sublime_text
   specs:
-    sublime_text (1.0.0)
+    sublime_text (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
