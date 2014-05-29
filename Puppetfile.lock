@@ -291,7 +291,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-slate
   specs:
-    slate (1.0.0)
+    slate (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sublime_text
