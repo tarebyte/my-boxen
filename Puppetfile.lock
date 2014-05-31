@@ -356,7 +356,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (4.1.0)
+    stdlib (4.2.0)
 
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
@@ -426,7 +426,7 @@ DEPENDENCIES
   skype (>= 0)
   slack (>= 0)
   slate (>= 0)
-  stdlib (= 4.1.0)
+  stdlib (= 4.2.0)
   sublime_text (>= 0)
   sudo (= 1.0.0)
   sysctl (>= 0)
