@@ -20,7 +20,7 @@ class people::tarebyte::git {
     'alias.type'          : value => 'cat-file -t';
     'alias.rmb'           : value => "!sh -c 'git branch -D \$1 && git push origin :\$1' -";
     'alias.who'           : value => 'shortlog -n -s --no-merges';
-    'alias.g'             : value => 'grep --break --heading --line-number';
+    'alias.g'             : value => "grep --break --heading --line-number";
 
     'color.branch'      : value => 'auto';
     'color.diff'        : value => 'auto';

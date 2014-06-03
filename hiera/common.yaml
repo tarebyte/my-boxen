@@ -1,7 +1,7 @@
 ---
 ruby::provider: 'chruby'
 
-ruby::build::ensure:   'v20140509.1'
+ruby::build::ensure:   'v20140524'
 ruby::chruby::ensure:  'v0.3.8'
-ruby::global::version: '2.1.2'
+ruby::global::version: '2.1.1'
 
