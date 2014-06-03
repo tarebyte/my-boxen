@@ -37,6 +37,8 @@ class people::tarebyte::git {
 
     'gitsh.defaultCommand': value => 'status -sb';
 
+    'grep.extendRegexp': value => 'true';
+
     'push.default' : value  => 'current';
 
     'user.name'       : value => 'Mark Tareshawty';
