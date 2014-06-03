@@ -20,6 +20,7 @@ class people::tarebyte::git {
     'alias.type'          : value => 'cat-file -t';
     'alias.rmb'           : value => "!sh -c 'git branch -D \$1 && git push origin :\$1' -";
     'alias.who'           : value => 'shortlog -n -s --no-merges';
+    'alias.g'             : value => 'grep --break --heading --line-number';
 
     'color.branch'      : value => 'auto';
     'color.diff'        : value => 'auto';
@@ -37,7 +38,8 @@ class people::tarebyte::git {
 
     'gitsh.defaultCommand': value => 'status -sb';
 
-    'grep.extendRegexp': value => 'true';
+    'grep.extendRegexp' : value => 'true';
+    'grep.lineNumber'   : value => 'true';
 
     'push.default' : value  => 'current';
 
