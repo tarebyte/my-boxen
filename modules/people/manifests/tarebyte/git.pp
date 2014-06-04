@@ -20,7 +20,6 @@ class people::tarebyte::git {
     'alias.type'          : value => 'cat-file -t';
     'alias.rmb'           : value => "!sh -c 'git branch -D \$1 && git push origin :\$1' -";
     'alias.who'           : value => 'shortlog -n -s --no-merges';
-    'alias.g'             : value => "grep --break --heading --line-number";
 
     'color.branch'      : value => 'auto';
     'color.diff'        : value => 'auto';
@@ -47,5 +46,11 @@ class people::tarebyte::git {
     'user.email'      : value => 'tarebyte@gmail.com';
     'user.username'   : value => 'tarebyte';
     'user.signingkey' : value => '46025DA6';
+
+  }
+
+  exec { "One Letter Aliases":
+    command => "git config --global --replace-all alias.g 'grep --break --heading --line-number';",
+    path    => "${boxen::config::home}/homebrew/bin"
   }
 }
