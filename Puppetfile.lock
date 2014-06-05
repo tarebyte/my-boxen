@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
-    alfred (1.1.8)
+    alfred (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-android
