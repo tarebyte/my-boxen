@@ -261,7 +261,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.0.3)
+    ruby (8.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-screenhero
@@ -419,7 +419,7 @@ DEPENDENCIES
   rdio (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
-  ruby (= 8.0.3)
+  ruby (= 8.0.4)
   screenhero (>= 0)
   selfcontrol (>= 0)
   sequel_pro (>= 0)
