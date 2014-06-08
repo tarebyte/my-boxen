@@ -10,6 +10,7 @@ gem "open4",                  "~> 1.3.4"
 gem "rake",                   "10.3.2"
 gem "rspec-puppet",           "1.0.1"
 gem "deep_merge",             "~> 1.0"
+gem 'psych',                  '~> 2.0.5'
 
 group :development do
   gem "aws-sdk", "~> 1.42"
