@@ -221,7 +221,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.5.0)
+    osx (2.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
