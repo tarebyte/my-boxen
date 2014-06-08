@@ -7,6 +7,7 @@ class people::tarebyte::osx {
   include osx::no_network_dsstores
   include osx::software_update
   include osx::dock::icon_size
+  include osx::global::tap_to_click
 
   osx::recovery_message { 'If this Mac is found, please call +1.613.501.4257': }
 }
