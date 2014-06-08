@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-erlang
   specs:
-    erlang (1.0.1)
+    erlang (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -211,7 +211,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-onepassword
   specs:
-    onepassword (1.1.0)
+    onepassword (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
