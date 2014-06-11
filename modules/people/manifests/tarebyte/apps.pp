@@ -70,7 +70,6 @@ class people::tarebyte::apps {
   include sequel_pro
   include screenhero
   include skype
-  include slack
   include slate
   include sublime_text
 
