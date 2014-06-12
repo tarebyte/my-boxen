@@ -12,6 +12,7 @@ class people::tarebyte::git {
     'alias.hist'          : value => 'log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --color';
     'alias.oops'          : value => "reset --soft 'HEAD^'";
     'alias.pm'            : value => 'push origin master';
+    'alias.po'            : value => 'push origin';
     'alias.phm'           : value => 'push heroku master';
     'alias.sc'            : value => 'commit -S -m';
     'alias.sci'           : value => 'commit -S';
