@@ -37,6 +37,7 @@ class people::tarebyte::apps {
   include flux::beta
 
   include flowdock
+  include fonts
   include gitx
   include heroku
 

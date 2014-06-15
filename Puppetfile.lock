@@ -104,6 +104,11 @@ GITHUBTARBALL
     flux (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-fonts
+  specs:
+    fonts (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -380,6 +385,7 @@ DEPENDENCIES
   fish (>= 0)
   flowdock (>= 0)
   flux (>= 0)
+  fonts (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.0.101)
   gh (>= 0)
