@@ -59,7 +59,6 @@ class people::tarebyte::apps {
   include mongodb
 
   include onepassword
-  include ohmyzsh
 
   include postgresql
   include python

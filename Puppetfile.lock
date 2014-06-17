@@ -344,11 +344,6 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: erivello/puppet-ohmyzsh
-  specs:
-    ohmyzsh (1.0.0)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.3)
@@ -409,7 +404,6 @@ DEPENDENCIES
   mongodb (>= 0)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
-  ohmyzsh (= 1.0.0)
   onepassword (>= 0)
   openssl (= 1.0.0)
   osx (>= 0)
