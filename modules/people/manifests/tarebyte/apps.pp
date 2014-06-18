@@ -74,7 +74,11 @@ class people::tarebyte::apps {
   include sublime_text
 
   include tmux
-  include vagrant
+
+  class { 'vagrant':
+    version => '1.5.4'
+  }
+
   include vlc
   include vmware_fusion
 
