@@ -3,11 +3,6 @@ class people::tarebyte::apps {
   include adobe_reader
   include alfred
 
-  include android::sdk
-  include android::tools
-  include android::platform_tools
-  include android::studio
-
   include atom
   include autojump
 
@@ -26,7 +21,6 @@ class people::tarebyte::apps {
   include dropbox
 
   include elasticsearch
-  include erlang
 
   include firefox
 
@@ -34,11 +28,7 @@ class people::tarebyte::apps {
       chsh => false,
   }
 
-  include flux::beta
-
-  include flowdock
   include fonts
-  include gitx
   include heroku
 
   include iterm2::dev
@@ -55,13 +45,10 @@ class people::tarebyte::apps {
   include macvim
   include marked2
   include memcached
-  include minecraft
-  include mongodb
 
   include onepassword
 
   include postgresql
-  include python
 
   include redis
   include rdio
@@ -69,7 +56,6 @@ class people::tarebyte::apps {
   include selfcontrol
   include sequel_pro
   include screenhero
-  include skype
   include slate
   include sublime_text
 
@@ -82,6 +68,5 @@ class people::tarebyte::apps {
   include vlc
   include vmware_fusion
 
-  include zeromq
   include zsh
 }
