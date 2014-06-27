@@ -11,10 +11,6 @@ class people::tarebyte {
   include projects::cwdg::projects
   include projects::tarebyte::personal_projects
 
-  class { 'nodejs::global':
-    version => 'v0.10.26'
-  }
-
   package {
     [
       'htop',

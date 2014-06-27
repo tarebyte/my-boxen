@@ -5,8 +5,5 @@ class projects::tarebyte::config {
     dir    => "${boxen::config::srcdir}/${::github_login}/dotfiles"
   }
 
-  boxen::project { "vim-config":
-    source => 'tarebyte/vim-config',
-    dir    => "${boxen::config::srcdir}/${::github_login}/vim-config"
-  }
+  exec { "${boxen::config::srcdir}/${::github_login}/dotfiles/script/bootstrap": }
 }
