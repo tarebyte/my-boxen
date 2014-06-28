@@ -29,6 +29,7 @@ class people::tarebyte::apps {
   }
 
   include fonts
+  include github_for_mac
   include heroku
 
   include iterm2::dev

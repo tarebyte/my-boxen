@@ -109,6 +109,11 @@ GITHUBTARBALL
     git (2.4.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-github_for_mac
+  specs:
+    github_for_mac (1.0.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.2.0)
@@ -331,6 +336,7 @@ DEPENDENCIES
   gcc (= 2.1.0)
   gh (>= 0)
   git (= 2.4.0)
+  github_for_mac (>= 0)
   go (= 1.2.0)
   heroku (>= 0)
   homebrew (= 1.9.3)
