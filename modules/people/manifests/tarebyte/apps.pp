@@ -21,6 +21,8 @@ class people::tarebyte::apps {
   include dropbox
 
   include elasticsearch
+  include elixir
+  include erlang
 
   include firefox
 

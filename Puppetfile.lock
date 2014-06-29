@@ -74,6 +74,16 @@ GITHUBTARBALL
     elasticsearch (2.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-elixir
+  specs:
+    elixir (0.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-erlang
+  specs:
+    erlang (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.2.1)
@@ -329,6 +339,8 @@ DEPENDENCIES
   dnsmasq (= 1.0.1)
   dropbox (>= 0)
   elasticsearch (>= 0)
+  elixir (>= 0)
+  erlang (>= 0)
   firefox (>= 0)
   fish (>= 0)
   fonts (>= 0)
