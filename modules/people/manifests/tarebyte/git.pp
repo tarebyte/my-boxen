@@ -20,6 +20,7 @@ class people::tarebyte::git {
     'alias.today'         : value => "log --since=midnight --author='Mark Tareshawty' --oneline";
     'alias.type'          : value => 'cat-file -t';
     'alias.rmb'           : value => "!sh -c 'git branch -D \$1 && git push origin :\$1' -";
+    'alias.undo'          : value => 'reset --soft HEAD^';
     'alias.up'            : value => "!sh -c 'git pull --rebase --prune && git log --pretty=format:\\\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\\\" HEAD@{1}..'";
     'alias.who'           : value => 'shortlog -n -s --no-merges';
 
