@@ -71,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.3.0)
+    elasticsearch (2.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-elixir
@@ -136,7 +136,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.3)
+    homebrew (1.9.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -351,7 +351,7 @@ DEPENDENCIES
   github_for_mac (>= 0)
   go (= 1.2.0)
   heroku (>= 0)
-  homebrew (= 1.9.3)
+  homebrew (= 1.9.4)
   hub (= 1.3.0)
   imagemagick (>= 0)
   inifile (= 1.0.3)
