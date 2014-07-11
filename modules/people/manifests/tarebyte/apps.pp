@@ -63,6 +63,7 @@ class people::tarebyte::apps {
   include sublime_text
 
   include tmux
+  include tor
 
   class { 'vagrant':
     version => '1.5.4'

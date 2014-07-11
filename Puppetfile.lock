@@ -284,6 +284,11 @@ GITHUBTARBALL
     tmux (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tor
+  specs:
+    tor (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.1.1)
@@ -384,6 +389,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (>= 0)
   tmux (>= 0)
+  tor (>= 0)
   vagrant (>= 0)
   vlc (>= 0)
   vmware_fusion (>= 0)
