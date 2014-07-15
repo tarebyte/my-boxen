@@ -34,7 +34,7 @@ class people::tarebyte::apps {
   include github_for_mac
   include heroku
 
-  include iterm2::dev
+  include iterm2::stable
   include iterm2::colors::solarized_dark
 
   include imagemagick
