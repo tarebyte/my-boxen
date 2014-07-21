@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.1.0)
+    gcc (2.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gh
@@ -126,7 +126,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
-    go (1.2.0)
+    go (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-heroku
@@ -146,7 +146,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-imagemagick
   specs:
-    imagemagick (1.2.1)
+    imagemagick (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
@@ -350,11 +350,11 @@ DEPENDENCIES
   fish (>= 0)
   fonts (>= 0)
   foreman (= 1.2.0)
-  gcc (= 2.1.0)
+  gcc (= 2.1.1)
   gh (>= 0)
   git (= 2.5.0)
   github_for_mac (>= 0)
-  go (= 1.2.0)
+  go (= 2.1.0)
   heroku (>= 0)
   homebrew (= 1.9.4)
   hub (= 1.3.0)
