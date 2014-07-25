@@ -326,7 +326,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
   specs:
-    module-data (0.0.3)
+    module_data (0.0.3)
 
 DEPENDENCIES
   adium (>= 0)
@@ -367,7 +367,7 @@ DEPENDENCIES
   macvim (>= 0)
   marked2 (>= 0)
   memcached (>= 0)
-  module-data (= 0.0.3)
+  module_data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   onepassword (>= 0)
