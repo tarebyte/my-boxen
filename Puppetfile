@@ -59,7 +59,6 @@ github "xquartz",     "1.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "adium"
 github "adobe_reader"
 github "alfred"
 github "atom"
@@ -68,6 +67,7 @@ github "bartender"
 github "caffeine"
 github "chrome"
 github "clojure"
+github "cloudapp"
 github "cmake"
 github "ctags"
 github "dropbox"

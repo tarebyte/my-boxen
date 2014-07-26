@@ -1,5 +1,4 @@
 class people::tarebyte::apps {
-  include adium
   include adobe_reader
   include alfred
 
@@ -15,6 +14,7 @@ class people::tarebyte::apps {
   include chrome::canary
 
   include clojure
+  include cloudapp
   include cmake
   include ctags
 

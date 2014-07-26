@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: boxen/puppet-adium
-  specs:
-    adium (1.4.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-adobe_reader
   specs:
     adobe_reader (1.2.0)
@@ -47,6 +42,11 @@ GITHUBTARBALL
   remote: boxen/puppet-clojure
   specs:
     clojure (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-cloudapp
+  specs:
+    cloudapp (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-cmake
@@ -329,7 +329,6 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  adium (>= 0)
   adobe_reader (>= 0)
   alfred (>= 0)
   atom (>= 0)
@@ -339,6 +338,7 @@ DEPENDENCIES
   caffeine (>= 0)
   chrome (>= 0)
   clojure (>= 0)
+  cloudapp (>= 0)
   cmake (>= 0)
   ctags (>= 0)
   dnsmasq (= 1.0.1)
