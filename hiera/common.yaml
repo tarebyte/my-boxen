@@ -1,4 +1,3 @@
 ---
-ruby::provider: 'chruby'
 ruby::global::version: '2.1.2'
 
