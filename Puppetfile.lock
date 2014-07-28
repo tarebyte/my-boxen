@@ -46,7 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-cloudapp
   specs:
-    cloudapp (1.0.1)
+    cloudapp (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-cmake

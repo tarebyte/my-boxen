@@ -22,6 +22,7 @@ class people::tarebyte::git {
     'alias.rmb'           : value => "!sh -c 'git branch -D \$1 && git push origin :\$1' -";
     'alias.undo'          : value => 'reset --soft HEAD^';
     'alias.up'            : value => "!sh -c 'git pull --rebase --prune && git log --pretty=format:\\\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\\\" HEAD@{1}..'";
+    'alias.wip'           : value => "!git add -u && git commit -m 'WIP'";
     'alias.who'           : value => 'shortlog -n -s --no-merges';
 
     'color.branch'      : value => 'auto';
