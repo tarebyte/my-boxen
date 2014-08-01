@@ -156,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.5.0)
+    java (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-kindle
@@ -231,7 +231,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
-    redis (3.0.3)
+    redis (3.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
