@@ -9,5 +9,5 @@ class people::tarebyte::osx {
   include osx::dock::icon_size
   include osx::global::tap_to_click
 
-  osx::recovery_message { 'If this Mac is found, please call +1.613.501.4257': }
+  osx::recovery_message { 'If this Mac is found, please call +1.330.402.5879': }
 }
