@@ -41,7 +41,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-clojure
   specs:
-    clojure (1.2.0)
+    clojure (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-cloudapp
@@ -71,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.4.0)
+    elasticsearch (2.5.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-elixir
@@ -86,7 +86,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.2.1)
+    firefox (1.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-fish
