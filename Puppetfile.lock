@@ -156,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.6.1)
+    java (1.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-kindle
