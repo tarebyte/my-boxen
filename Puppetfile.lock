@@ -61,7 +61,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (1.0.1)
+    dnsmasq (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -191,7 +191,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.8.1)
+    nodejs (3.8.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-onepassword
@@ -341,7 +341,7 @@ DEPENDENCIES
   cloudapp (>= 0)
   cmake (>= 0)
   ctags (>= 0)
-  dnsmasq (= 1.0.1)
+  dnsmasq (= 1.1.0)
   dropbox (>= 0)
   elasticsearch (>= 0)
   elixir (>= 0)
@@ -369,7 +369,7 @@ DEPENDENCIES
   memcached (>= 0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
-  nodejs (= 3.8.1)
+  nodejs (= 3.8.2)
   onepassword (>= 0)
   openssl (= 1.0.0)
   osx (>= 0)
