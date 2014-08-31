@@ -36,7 +36,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
-    chrome (1.1.2)
+    chrome (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-clojure
