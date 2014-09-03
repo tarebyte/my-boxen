@@ -82,7 +82,9 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'tig'
+      'tig',
+      'python',
+      'python3'
     ]:
   }
 
