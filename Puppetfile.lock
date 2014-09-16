@@ -86,7 +86,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.2.2)
+    firefox (1.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-fish
