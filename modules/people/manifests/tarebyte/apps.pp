@@ -21,7 +21,6 @@ class people::tarebyte::apps {
   include autojump
 
   include chrome::beta
-
   include clojure
   include cmake
   include ctags
@@ -29,10 +28,6 @@ class people::tarebyte::apps {
   include elasticsearch
   include elixir
   include erlang
-
-  class { 'fish':
-      chsh => false,
-  }
 
   include fonts
 
@@ -42,7 +37,6 @@ class people::tarebyte::apps {
 
   include iterm2::stable
   include iterm2::colors::solarized_dark
-
   include imagemagick
 
   include java
