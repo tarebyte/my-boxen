@@ -13,3 +13,4 @@
 
 # Top Secret :-)
 modules/people/manifests/tarebyte/shopify.pp
+hiera/users/*

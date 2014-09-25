@@ -1,3 +1,4 @@
 ---
 ruby::global::version: '2.1.2'
+ruby::build::ensure: '04fe8ab73c88e6e77b017291ee5a935e78255a90'
 

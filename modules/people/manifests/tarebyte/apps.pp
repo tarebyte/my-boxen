@@ -65,10 +65,7 @@ class people::tarebyte::apps {
   include tmux
   include tor
 
-  class { 'vagrant':
-    version => '1.5.4'
-  }
-
+  include vagrant
   include vlc
   include vmware_fusion
 

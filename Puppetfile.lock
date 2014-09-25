@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.6.2)
+    boxen (3.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.1.1)
+    gcc (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gh
@@ -136,7 +136,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.4)
+    homebrew (1.9.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -191,7 +191,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.8.2)
+    nodejs (4.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-onepassword
@@ -241,7 +241,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.1.3)
+    ruby (8.1.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-screenhero
@@ -306,12 +306,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.2.0)
+    xquartz (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
+
+GITHUBTARBALL
+  remote: phinze/puppet-brewcask
+  specs:
+    brewcask (0.0.4)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -334,7 +339,8 @@ DEPENDENCIES
   atom (>= 0)
   autojump (>= 0)
   bartender (>= 0)
-  boxen (= 3.6.2)
+  boxen (= 3.7.0)
+  brewcask (= 0.0.4)
   caffeine (>= 0)
   chrome (>= 0)
   clojure (>= 0)
@@ -350,13 +356,13 @@ DEPENDENCIES
   fish (>= 0)
   fonts (>= 0)
   foreman (= 1.2.0)
-  gcc (= 2.1.1)
+  gcc (= 2.2.0)
   gh (>= 0)
   git (= 2.5.0)
   github_for_mac (>= 0)
   go (= 2.1.0)
   heroku (>= 0)
-  homebrew (= 1.9.4)
+  homebrew (= 1.9.6)
   hub (= 1.3.0)
   imagemagick (>= 0)
   inifile (= 1.1.1)
@@ -369,7 +375,7 @@ DEPENDENCIES
   memcached (>= 0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
-  nodejs (= 3.8.2)
+  nodejs (= 4.0.0)
   onepassword (>= 0)
   openssl (= 1.0.0)
   osx (>= 0)
@@ -379,7 +385,7 @@ DEPENDENCIES
   rdio (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
-  ruby (= 8.1.3)
+  ruby (= 8.1.4)
   screenhero (>= 0)
   selfcontrol (>= 0)
   sequel_pro (>= 0)
@@ -393,6 +399,6 @@ DEPENDENCIES
   vagrant (>= 0)
   vlc (>= 0)
   vmware_fusion (>= 0)
-  xquartz (= 1.2.0)
+  xquartz (= 1.2.1)
   zsh (>= 0)
 
