@@ -4,34 +4,14 @@ GITHUBTARBALL
     adobe_reader (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-alfred
-  specs:
-    alfred (1.3.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-atom
-  specs:
-    atom (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-autojump
   specs:
     autojump (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-bartender
-  specs:
-    bartender (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.7.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-caffeine
-  specs:
-    caffeine (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -42,11 +22,6 @@ GITHUBTARBALL
   remote: boxen/puppet-clojure
   specs:
     clojure (1.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-cloudapp
-  specs:
-    cloudapp (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-cmake
@@ -64,11 +39,6 @@ GITHUBTARBALL
     dnsmasq (1.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.4.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
     elasticsearch (2.5.0)
@@ -82,11 +52,6 @@ GITHUBTARBALL
   remote: boxen/puppet-erlang
   specs:
     erlang (1.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-fish
@@ -164,19 +129,9 @@ GITHUBTARBALL
     kindle (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-licecap
-  specs:
-    licecap (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-marked2
-  specs:
-    marked2 (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-memcached
@@ -192,11 +147,6 @@ GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
     nodejs (4.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-onepassword
-  specs:
-    onepassword (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -224,11 +174,6 @@ GITHUBTARBALL
     postgresql (3.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-rdio
-  specs:
-    rdio (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (3.1.0)
@@ -242,26 +187,6 @@ GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (8.1.4)
-
-GITHUBTARBALL
-  remote: boxen/puppet-screenhero
-  specs:
-    screenhero (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-selfcontrol
-  specs:
-    selfcontrol (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-sequel_pro
-  specs:
-    sequel_pro (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-slate
-  specs:
-    slate (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sublime_text
@@ -292,11 +217,6 @@ GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.2.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vlc
-  specs:
-    vlc (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-vmware_fusion
@@ -335,24 +255,17 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adobe_reader (>= 0)
-  alfred (>= 0)
-  atom (>= 0)
   autojump (>= 0)
-  bartender (>= 0)
   boxen (= 3.7.0)
   brewcask (= 0.0.4)
-  caffeine (>= 0)
   chrome (>= 0)
   clojure (>= 0)
-  cloudapp (>= 0)
   cmake (>= 0)
   ctags (>= 0)
   dnsmasq (= 1.1.0)
-  dropbox (>= 0)
   elasticsearch (>= 0)
   elixir (>= 0)
   erlang (>= 0)
-  firefox (>= 0)
   fish (>= 0)
   fonts (>= 0)
   foreman (= 1.2.0)
@@ -369,27 +282,19 @@ DEPENDENCIES
   iterm2 (>= 0)
   java (>= 0)
   kindle (>= 0)
-  licecap (>= 0)
   macvim (>= 0)
-  marked2 (>= 0)
   memcached (>= 0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 4.0.0)
-  onepassword (>= 0)
   openssl (= 1.0.0)
   osx (>= 0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   postgresql (>= 0)
-  rdio (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.4)
-  screenhero (>= 0)
-  selfcontrol (>= 0)
-  sequel_pro (>= 0)
-  slate (>= 0)
   stdlib (= 4.2.0)
   sublime_text (>= 0)
   sudo (= 1.0.0)
@@ -397,7 +302,6 @@ DEPENDENCIES
   tmux (>= 0)
   tor (>= 0)
   vagrant (>= 0)
-  vlc (>= 0)
   vmware_fusion (>= 0)
   xquartz (= 1.2.1)
   zsh (>= 0)
