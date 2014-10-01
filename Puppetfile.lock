@@ -41,7 +41,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.5.0)
+    elasticsearch (2.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-elixir
