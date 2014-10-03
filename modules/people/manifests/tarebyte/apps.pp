@@ -1,12 +1,23 @@
 class people::tarebyte::apps {
   include brewcask
 
+  include adobe_reader
+
   package { 'alfred': provider => 'brewcask' }
   package { 'bartender': provider => 'brewcask' }
   package { 'caffeine': provider => 'brewcask' }
+
+  include chrome::beta
+
   package { 'cloud': provider => 'brewcask' }
   package { 'dropbox': provider => 'brewcask' }
   package { 'firefox': provider => 'brewcask' }
+
+  include github_for_mac
+  include iterm2::stable
+  include iterm2::colors::solarized_dark
+  include kindle
+
   package { 'licecap': provider => 'brewcask' }
   package { 'marked': provider => 'brewcask' }
   package { 'onepassword': provider => 'brewcask' }
@@ -14,48 +25,15 @@ class people::tarebyte::apps {
   package { 'selfcontrol': provider => 'brewcask' }
   package { 'sequel-pro': provider => 'brewcask' }
   package { 'slate': provider => 'brewcask' }
-  package { 'torbrowser': provider => 'brewcask' }
-  package { 'vlc': provider => 'brewcask' }
-
-  include adobe_reader
-  include autojump
-
-  include chrome::beta
-  include clojure
-  include cmake
-  include ctags
-
-  include elasticsearch
-  include elixir
-  include erlang
-
-  include fonts
-
-  include github_for_mac
-
-  include heroku
-
-  include iterm2::stable
-  include iterm2::colors::solarized_dark
-  include imagemagick
-
-  include java
-
-  include kindle
-
-  include macvim
-  include memcached
-
-  include postgresql
-
-  include redis
 
   include sublime_text
-
   include tmux
 
-  include vagrant
-  include vmware_fusion
+  package { 'torbrowser': provider => 'brewcask' }
 
-  include zsh
+  include vagrant
+
+  package { 'vlc': provider => 'brewcask' }
+
+  include vmware_fusion
 }
