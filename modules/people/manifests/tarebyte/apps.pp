@@ -21,10 +21,10 @@ class people::tarebyte::apps {
   package { 'licecap': provider => 'brewcask' }
   package { 'marked': provider => 'brewcask' }
   package { 'onepassword': provider => 'brewcask' }
-  package { 'rdio': provider => 'brewcask' }
   package { 'selfcontrol': provider => 'brewcask' }
   package { 'sequel-pro': provider => 'brewcask' }
   package { 'slate': provider => 'brewcask' }
+  package { 'spotify': provider => 'brewcask' }
 
   include sublime_text
   include tmux
