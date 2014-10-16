@@ -121,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.7.0)
+    java (1.7.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-kindle
@@ -211,7 +211,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-tor
   specs:
-    tor (1.0.0)
+    tor (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
