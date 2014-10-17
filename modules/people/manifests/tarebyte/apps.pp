@@ -7,13 +7,11 @@ class people::tarebyte::apps {
   package { 'bartender': provider => 'brewcask' }
   package { 'caffeine': provider => 'brewcask' }
 
-  include chrome::beta
-
   package { 'cloud': provider => 'brewcask' }
   package { 'dropbox': provider => 'brewcask' }
   package { 'firefox': provider => 'brewcask' }
+  package { 'google-chrome': provider => 'brewcask' }
 
-  include github_for_mac
   include iterm2::stable
   include iterm2::colors::solarized_dark
   include kindle
