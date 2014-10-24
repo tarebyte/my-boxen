@@ -16,7 +16,6 @@ class people::tarebyte::packages {
 
   include java
 
-  include macvim
   include memcached
 
   include postgresql
@@ -28,6 +27,8 @@ class people::tarebyte::packages {
   package {
     [
       'htop',
+      'icu4c',
+      'macvim',
       'pcre',
       'reattach-to-user-namespace',
       'spark',
