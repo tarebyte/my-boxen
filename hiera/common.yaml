@@ -1,2 +1,3 @@
 ---
-ruby::global::version: '2.1.3'
+ruby::global::version: '2.1.4'
+ruby::build::ensure: 'v20141028'

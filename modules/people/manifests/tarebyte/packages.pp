@@ -6,8 +6,6 @@ class people::tarebyte::packages {
   include ctags
 
   include elasticsearch
-  include elixir
-  include erlang
 
   include fonts
 
