@@ -20,7 +20,6 @@ class people::tarebyte::apps {
   package { 'vlc':            provider => 'brewcask', install_options => '--appdir=/Applications', }
 
   include adobe_reader
-  include sublime_text
   include tmux
   include vagrant
   include vmware_fusion

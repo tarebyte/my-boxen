@@ -41,12 +41,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.6.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-fonts
-  specs:
-    fonts (0.0.3)
+    elasticsearch (2.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -76,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.7)
+    homebrew (1.9.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -87,11 +82,6 @@ GITHUBTARBALL
   remote: boxen/puppet-imagemagick
   specs:
     imagemagick (1.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-iterm2
-  specs:
-    iterm2 (1.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-java
@@ -126,7 +116,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.7.1)
+    osx (2.8.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (2.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -154,11 +149,6 @@ GITHUBTARBALL
     ruby (8.1.5)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text
-  specs:
-    sublime_text (1.0.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -172,11 +162,6 @@ GITHUBTARBALL
   remote: boxen/puppet-tmux
   specs:
     tmux (1.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-tor
-  specs:
-    tor (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
@@ -229,17 +214,15 @@ DEPENDENCIES
   ctags (>= 0)
   dnsmasq (= 2.0.0)
   elasticsearch (>= 0)
-  fonts (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   gh (>= 0)
   git (= 2.7.0)
   heroku (>= 0)
-  homebrew (= 1.9.7)
+  homebrew (= 1.9.8)
   hub (= 1.3.0)
   imagemagick (>= 0)
   inifile (= 1.1.1)
-  iterm2 (>= 0)
   java (>= 0)
   kindle (>= 0)
   memcached (>= 0)
@@ -248,17 +231,16 @@ DEPENDENCIES
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
   osx (>= 0)
+  phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   postgresql (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.5)
   stdlib (= 4.3.2)
-  sublime_text (>= 0)
   sudo (= 1.0.0)
   sysctl (>= 0)
   tmux (>= 0)
-  tor (>= 0)
   vagrant (>= 0)
   vmware_fusion (>= 0)
   xquartz (= 1.2.1)

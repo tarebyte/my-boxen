@@ -7,8 +7,6 @@ class people::tarebyte::packages {
 
   include elasticsearch
 
-  include fonts
-
   include heroku
   include imagemagick
 
@@ -16,6 +14,7 @@ class people::tarebyte::packages {
 
   include memcached
 
+  include phantomjs
   include postgresql
 
   include redis
