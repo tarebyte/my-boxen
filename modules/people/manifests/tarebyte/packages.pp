@@ -8,6 +8,7 @@ class people::tarebyte::packages {
   include elasticsearch
 
   include heroku
+
   include imagemagick
 
   include java
@@ -27,9 +28,13 @@ class people::tarebyte::packages {
       'icu4c',
       'macvim',
       'pcre',
+      'python',
+      'python3',
       'reattach-to-user-namespace',
       'spark',
+      'tig',
       'the_silver_searcher',
+      'tmux',
       'tree'
     ]:
   }

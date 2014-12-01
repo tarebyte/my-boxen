@@ -10,6 +10,5 @@ class people::tarebyte {
   include people::tarebyte::packages
 
   include projects::tarebyte::config
-  include projects::tarebyte::clients
   include projects::tarebyte::personal_projects
 }

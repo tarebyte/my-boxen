@@ -71,7 +71,7 @@ node default {
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }
-  ruby::version { '2.1.4': }
+  ruby::version { '2.1.5': }
 
   # common, useful packages
   package {
@@ -79,9 +79,6 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'tig',
-      'python',
-      'python3'
     ]:
   }
 
