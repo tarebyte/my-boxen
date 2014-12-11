@@ -66,7 +66,7 @@ your boxen:
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone https://github.com/boxen/our-boxen /opt/boxen/repo
+git clone https://github.com/tarebyte/our-boxen /opt/boxen/repo
 cd /opt/boxen/repo
 git remote rm origin
 git remote add origin <the location of my new git repository>
@@ -136,9 +136,7 @@ This template project provides the following by default:
 * Node.js 0.10
 * Ruby 1.9.3
 * Ruby 2.0.0
-* Ruby 2.1.0
-* Ruby 2.1.1
-* Ruby 2.1.2
+* Ruby 2.1.5
 * ack
 * Findutils
 * GNU tar
