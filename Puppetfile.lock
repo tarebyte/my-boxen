@@ -36,7 +36,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (2.0.0)
+    dnsmasq (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
@@ -217,7 +217,7 @@ DEPENDENCIES
   clojure (>= 0)
   cmake (>= 0)
   ctags (>= 0)
-  dnsmasq (= 2.0.0)
+  dnsmasq (= 2.0.1)
   elasticsearch (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
