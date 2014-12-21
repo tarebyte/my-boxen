@@ -1,7 +1,7 @@
 class projects::cwdg::projects {
 
   boxen::project { "cwdg":
-    ruby       => '2.1.4',
+    ruby       => '2.1.5',
     postgresql => true,
     nginx      => true,
     source     => "CWDG/cwdg-website",
