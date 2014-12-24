@@ -11,7 +11,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.9.0)
+    boxen (3.10.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-brewcask
+  specs:
+    brewcask (0.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -91,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.7.1)
+    java (1.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-kindle
@@ -171,7 +176,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.2.0)
+    vagrant (3.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-vmware_fusion
@@ -187,11 +192,6 @@ GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
-
-GITHUBTARBALL
-  remote: phinze/puppet-brewcask
-  specs:
-    brewcask (0.0.4)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -211,7 +211,7 @@ GITHUBTARBALL
 DEPENDENCIES
   adobe_reader (>= 0)
   autojump (>= 0)
-  boxen (= 3.9.0)
+  boxen (= 3.10.1)
   brewcask (= 0.0.4)
   chrome (>= 0)
   clojure (>= 0)

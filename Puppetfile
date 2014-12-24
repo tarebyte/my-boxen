@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.9.0"
+github "boxen", "3.10.1"
 
 # Support for default hiera data in modules
 
@@ -38,6 +38,7 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "brewcask",    "0.0.4"
 github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
 github "go",          "2.1.0"
@@ -56,7 +57,6 @@ github "ruby",        "8.2.0"
 github "stdlib",      "4.3.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
-github "brewcask",    "0.0.4", :repo => "phinze/puppet-brewcask"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
