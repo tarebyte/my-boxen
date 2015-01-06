@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
-    postgresql (3.0.1)
+    postgresql (3.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-redis
@@ -176,7 +176,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.2.1)
+    vagrant (3.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-vmware_fusion
