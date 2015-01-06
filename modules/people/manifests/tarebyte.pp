@@ -3,12 +3,10 @@ class people::tarebyte {
 
   include projects::cwdg::projects
 
-  include people::tarebyte::apps
   include people::tarebyte::fonts
   include people::tarebyte::git
-  include people::tarebyte::osx
-  include people::tarebyte::packages
 
   include projects::tarebyte::config
-  include projects::tarebyte::personal_projects
+
+  osx::recovery_message { 'If this Mac is found, please call +1.330.402.5879': }
 }

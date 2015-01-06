@@ -17,5 +17,4 @@ class projects::tarebyte::config {
 
   # Install the dotfiles
   exec { "${boxen::config::srcdir}/${::github_login}/dotfiles/script/bootstrap": }
-
 }
