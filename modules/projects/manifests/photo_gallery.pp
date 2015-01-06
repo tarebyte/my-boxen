@@ -1,4 +1,4 @@
-class projects::tarebyte::personal_projects {
+class projects::photo_gallery {
   boxen::project { 'photo_gallery':
     dir        => "${boxen::config::srcdir}/tarebyte/photo_gallery",
     memcached  => true,

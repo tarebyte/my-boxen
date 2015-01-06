@@ -6,13 +6,15 @@ boxen::personal::homebrew_packages:
   - python
   - python3
   - reattach-to-user-namespace
-  - spar
+  - spark
   - tig
   - the_silver_searcher
   - tmux
   - tree
 
 boxen::personal::includes:
+  - boxen::development
+
   - osx::dock::autohide
   - osx::finder::empty_trash_securely
   - osx::finder::unhide_library
