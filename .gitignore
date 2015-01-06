@@ -10,7 +10,3 @@
 /shared/*
 !/shared/README.md
 /vendor/gems/
-
-# Top Secret :-)
-modules/people/manifests/tarebyte/shopify.pp
-hiera/users/*

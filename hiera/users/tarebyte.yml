@@ -1,0 +1,64 @@
+boxen::personal::homebrew_packages:
+  - htop
+  - icu4c
+  - macvim
+  - pcr
+  - python
+  - python3
+  - reattach-to-user-namespace
+  - spar
+  - tig
+  - the_silver_searcher
+  - tmux
+  - tree
+
+boxen::personal::includes:
+  - osx::dock::autohide
+  - osx::finder::empty_trash_securely
+  - osx::finder::unhide_library
+  - osx::global::key_repeat_rate
+  - osx::keyboard::capslock_to_control
+  - osx::no_network_dsstores
+  - osx::software_update
+  - osx::dock::icon_size
+  - osx::global::tap_to_click
+
+  - autojump
+  - clojure
+  - cmake
+  - ctags
+  - elasticsearch
+  - heroku
+  - imagemagick
+  - java
+  - memcached
+  - phantomjs
+  - postgresql
+  - redis
+  - zsh
+
+  - adobe_reader
+  - vagrant
+  - vmware_fusion
+
+boxen::personal::osx_apps:
+  - alfred
+  - android-studio
+  - bartender
+  - caffeine
+  - cloud
+  - dropbox
+  - firefox
+  - google-chrome
+  - licecap
+  - marked
+  - onepassword
+  - selfcontrol
+  - sequel-pro
+  - slate
+  - spotify
+  - torbrowser
+  - vlc
+
+boxen::personal::projects:
+  - photo_gallery
