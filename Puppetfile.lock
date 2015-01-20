@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
-    postgresql (3.0.2)
+    postgresql (3.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-redis
