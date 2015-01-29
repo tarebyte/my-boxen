@@ -1,4 +1,5 @@
 boxen::personal::homebrew_packages:
+  - clojure
   - htop
   - icu4c
   - macvim
@@ -7,8 +8,8 @@ boxen::personal::homebrew_packages:
   - python3
   - reattach-to-user-namespace
   - spark
-  - tig
   - the_silver_searcher
+  - tig
   - tmux
   - tree
 
@@ -26,7 +27,6 @@ boxen::personal::includes:
   - osx::global::tap_to_click
 
   - autojump
-  - clojure
   - cmake
   - ctags
   - elasticsearch
