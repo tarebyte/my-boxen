@@ -66,7 +66,7 @@ your boxen:
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone https://github.com/tarebyte/our-boxen /opt/boxen/repo
+git clone https://github.com/tarebyte/my-boxen /opt/boxen/repo
 cd /opt/boxen/repo
 git remote rm origin
 git remote add origin <the location of my new git repository>
