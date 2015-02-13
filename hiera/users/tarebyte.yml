@@ -14,8 +14,6 @@ boxen::personal::homebrew_packages:
   - tree
 
 boxen::personal::includes:
-  - boxen::development
-
   - osx::dock::autohide
   - osx::finder::empty_trash_securely
   - osx::finder::unhide_library
@@ -50,7 +48,6 @@ boxen::personal::osx_apps:
   - caffeine
   - cloud
   - dropbox
-  - firefox
   - google-chrome
   - licecap
   - marked
@@ -59,8 +56,4 @@ boxen::personal::osx_apps:
   - sequel-pro
   - slate
   - spotify
-  - torbrowser
   - vlc
-
-boxen::personal::projects:
-  - photo_gallery
