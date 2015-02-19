@@ -4,7 +4,7 @@ GEM
     CFPropertyList (2.2.8)
     addressable (2.3.7)
     ansi (1.5.0)
-    aws-sdk-core (2.0.23)
+    aws-sdk-core (2.0.26)
       builder (~> 3.0)
       jmespath (~> 1.0)
       multi_json (~> 1.0)

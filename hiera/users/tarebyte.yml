@@ -12,6 +12,7 @@ boxen::personal::homebrew_packages:
   - tig
   - tmux
   - tree
+  - wifi-password
 
 boxen::personal::includes:
   - osx::dock::autohide
@@ -31,6 +32,7 @@ boxen::personal::includes:
   - heroku
   - imagemagick
   - java
+  - mysql
   - memcached
   - phantomjs
   - postgresql
