@@ -11,12 +11,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.10.2)
+    boxen (3.10.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.4)
+    brewcask (0.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -61,7 +61,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.5)
+    git (2.7.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-heroku
@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
-    mysql (1.99.91)
+    mysql (1.99.92)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -206,8 +206,8 @@ GITHUBTARBALL
 DEPENDENCIES
   adobe_reader (>= 0)
   autojump (>= 0)
-  boxen (= 3.10.2)
-  brewcask (= 0.0.4)
+  boxen (= 3.10.3)
+  brewcask (= 0.0.6)
   chrome (>= 0)
   cmake (>= 0)
   ctags (>= 0)
@@ -216,7 +216,7 @@ DEPENDENCIES
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   gh (>= 0)
-  git (= 2.7.5)
+  git (= 2.7.6)
   heroku (>= 0)
   homebrew (= 1.11.6)
   hub (= 1.4.0)
