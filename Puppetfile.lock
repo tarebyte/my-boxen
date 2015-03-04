@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
-    mysql (1.99.92)
+    mysql (1.99.990)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
