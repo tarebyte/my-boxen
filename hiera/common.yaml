@@ -1,4 +1,4 @@
 ---
-ruby::global::version: '2.2.0'
-ruby::build::ensure: 'v20150226'
+ruby::global::version: '2.2.1'
+ruby::build::ensure: 'v20150303'
 ruby::rbenv::ensure: '4d72eefffc548081f6eee2e54d3b9116b9f9ee8e'
