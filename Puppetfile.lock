@@ -86,7 +86,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.8.0)
+    java (1.8.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-kindle
@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
-    mysql (1.99.990)
+    mysql (1.99.992)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.4.0)
+    ruby (8.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -171,7 +171,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.2.2)
+    vagrant (3.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-vmware_fusion
@@ -236,7 +236,7 @@ DEPENDENCIES
   postgresql (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
-  ruby (= 8.4.0)
+  ruby (= 8.4.1)
   stdlib (= 4.3.2)
   sudo (= 1.0.0)
   sysctl (>= 0)
