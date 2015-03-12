@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.10.3)
+    boxen (3.10.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -71,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.11.6)
+    homebrew (1.12.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -86,7 +86,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.8.1)
+    java (1.8.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-kindle
@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.4.1)
+    ruby (8.5.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -206,7 +206,7 @@ GITHUBTARBALL
 DEPENDENCIES
   adobe_reader (>= 0)
   autojump (>= 0)
-  boxen (= 3.10.3)
+  boxen (= 3.10.4)
   brewcask (= 0.0.6)
   chrome (>= 0)
   cmake (>= 0)
@@ -218,7 +218,7 @@ DEPENDENCIES
   gh (>= 0)
   git (= 2.7.6)
   heroku (>= 0)
-  homebrew (= 1.11.6)
+  homebrew (= 1.12.0)
   hub (= 1.4.0)
   imagemagick (>= 0)
   inifile (= 1.1.1)
@@ -236,7 +236,7 @@ DEPENDENCIES
   postgresql (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
-  ruby (= 8.4.1)
+  ruby (= 8.5.0)
   stdlib (= 4.3.2)
   sudo (= 1.0.0)
   sysctl (>= 0)
